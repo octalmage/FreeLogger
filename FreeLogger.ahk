@@ -1,4 +1,3 @@
-; <COMPILER: v1.0.47.3>
 #MaxMem 10248
 #singleinstance force
 Menu,Tray,NoStandard
