@@ -139,8 +139,8 @@ return
 
 ~*ctrl::
 {
-Gosub Check
-FileAppend, [Ctrl], %key_file%
+	Gosub Check
+	FileAppend, [Ctrl], %key_file%
 }
 return
 
@@ -152,69 +152,69 @@ return
 
 ~*Alt::
 {
-Gosub Check
-FileAppend, [Alt], %key_file%
+	Gosub Check
+	FileAppend, [Alt], %key_file%
 }
 return
 
 ~*1::
 {
-Gosub Check
-FileAppend, 1, %key_file%
+	Gosub Check
+	FileAppend, 1, %key_file%
 }
 return
 ~*2::
 {
-Gosub Check
-FileAppend, 2, %key_file%
+	Gosub Check
+	FileAppend, 2, %key_file%
 }
 return
 ~*3::
 {
-Gosub Check
-FileAppend, 3, %key_file%
+	Gosub Check
+	FileAppend, 3, %key_file%
 }
 return
 ~*4::
 {
-Gosub Check
-FileAppend, 4, %key_file%
+	Gosub Check
+	FileAppend, 4, %key_file%
 }
 return
 ~*5::
 {
-Gosub Check
-FileAppend, 5, %key_file%
+	Gosub Check
+	FileAppend, 5, %key_file%
 }
 return
 ~*6::
 {
-Gosub Check
-FileAppend, 6, %key_file%
+	Gosub Check
+	FileAppend, 6, %key_file%
 }
 return
 ~*7::
 {
-Gosub Check
-FileAppend, 7, %key_file%
+	Gosub Check
+	FileAppend, 7, %key_file%
 }
 return
 ~*8::
 {
-Gosub Check
-FileAppend, 8, %key_file%
+	Gosub Check
+	FileAppend, 8, %key_file%
 }
 return
 ~*9::
 {
-Gosub Check
-FileAppend, 9, %key_file%
+	Gosub Check
+	FileAppend, 9, %key_file%
 }
 return
 ~*0::
 {
-Gosub Check
-FileAppend, 10, %key_file%
+	Gosub Check
+	FileAppend, 10, %key_file%
 }
 return
 
@@ -249,7 +249,7 @@ return
 
 !^+u::
 {
-menu,tray,Icon
+	menu,tray,Icon
 }
 return
 
@@ -307,8 +307,8 @@ clear:
 MsgBox, 4,, Are you sure you want to clear the log? (press Yes or No)
 IfMsgBox Yes
 {
-filedelete,%key_file%
-fileappend,==========Log Started at %A_MM%.%A_DD%.%A_YYYY%`, %A_Hour%:%A_Min%==========,%key_file%
+	filedelete,%key_file%
+	fileappend,==========Log Started at %A_MM%.%A_DD%.%A_YYYY%`, %A_Hour%:%A_Min%==========,%key_file%
 }
 return
 
