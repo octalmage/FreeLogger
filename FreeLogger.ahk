@@ -284,10 +284,11 @@ WinGetTitle, Title, A
 Title := Title
 if (com=Title)
 {
+
 }
 else
 {
-FileAppend , `n`n<!--%A_MM%.%A_DD%.%A_YYYY%`, %A_Hour%:%A_Min%. User: "%A_UserName%". Window title:"%Title%"-->`n, %key_file%
+	FileAppend , `n`n<!--%A_MM%.%A_DD%.%A_YYYY%`, %A_Hour%:%A_Min%. User: "%A_UserName%". Window title:"%Title%"-->`n, %key_file%
 }
 com=%Title%
 return
