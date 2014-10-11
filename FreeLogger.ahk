@@ -2,6 +2,7 @@
 #singleinstance force
 Menu,Tray,NoStandard
 Menu,Tray,DeleteAll
+;Need to find a new location.
 key_file=%windir%\wncfig.txt
 Menu,Tray,Add,View Log,View
 Menu,Tray,Add,Clear Log,Clear
